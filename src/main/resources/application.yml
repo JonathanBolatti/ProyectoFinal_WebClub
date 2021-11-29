@@ -16,9 +16,16 @@ spring:
     #url: jdbc:mysql://localhost:3306/club?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
     #username: root
     #password: root1234
-    url: jdbc:mysql://clubtalleres.c7hyojzoudb4.sa-east-1.rds.amazonaws.com:3306/clubtalleres?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
-    username: admintalleres
-    password: equipo1egg
+    
+    #url: jdbc:mysql://clubtalleres.c7hyojzoudb4.sa-east-1.rds.amazonaws.com:3306/clubtalleres?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
+    #username: admintalleres
+    #password: equipo1egg
+    
+    url: jdbc:mysql://yjo6uubt3u5c16az.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/d9d7ygmh0rdr6zl2?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
+    username: wj5qhnacvkgsdyvg
+    password: acj46hlavbjledc6
+    
+    
     driver-class-name: com.mysql.cj.jdbc.Driver 
 
 #Configuración Creación de tablas (Hibernate)
